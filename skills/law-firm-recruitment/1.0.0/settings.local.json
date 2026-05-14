@@ -1,0 +1,77 @@
+{
+  "firm": {
+    "name": "北京康达（宁波）律师事务所",
+    "shortName": "康达宁波",
+    "location": "宁波市鄞州区三眼桥街51号宁波塔27层",
+    "size": "50-100人",
+    "established": 2015,
+    "practiceAreas": [
+      "民商事诉讼",
+      "刑事辩护",
+      "公司法律顾问",
+      "物居业纠纷",
+      "知识产权",
+      "婚姻家事"
+    ]
+  },
+  "recruitment": {
+    "channels": [
+      {
+        "name": "BOSS直聘",
+        "priority": 1,
+        "cost": "中等",
+        "effectiveness": "高"
+      },
+      {
+        "name": "智联招聘",
+        "priority": 2,
+        "cost": "中等",
+        "effectiveness": "中"
+      },
+      {
+        "name": "内推",
+        "priority": 3,
+        "cost": "低",
+        "effectiveness": "高"
+      },
+      {
+        "name": "法学就业网",
+        "priority": 4,
+        "cost": "低",
+        "effectiveness": "低"
+      }
+    ],
+    "assessmentWeights": {
+      "professional": 40,
+      "communication": 20,
+      "logic": 20,
+      "ethics": 20
+    },
+    "salaryBands": {
+      "intern": "2k-4k",
+      "assistant": "4k-8k",
+      "associate": "8k-15k",
+      "seniorAssociate": "15k-25k",
+      "partner": "面议"
+    },
+    "workingHours": {
+      "start": "09:00",
+      "end": "18:00",
+      "flexible": true
+    }
+  },
+  "benefits": {
+    "socialInsurance": true,
+    "housingFund": true,
+    "paidLeave": "法定年假+额外年假",
+    "training": "年度培训预算",
+    "teamBuilding": "季度团建"
+  },
+  "contacts": {
+    "hr": {
+      "name": "人力资源部",
+      "phone": "0574-XXXXXXXX",
+      "email": "hr@kangda-nb.com"
+    }
+  }
+}

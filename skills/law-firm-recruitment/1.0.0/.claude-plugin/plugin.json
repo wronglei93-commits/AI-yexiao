@@ -1,0 +1,21 @@
+{
+  "name": "law-firm-recruitment",
+  "version": "1.0.0",
+  "description": "律师事务所智能招聘系统 — 需求分析、简历筛选、笔试设计、面试评估、背景调查、决策支持全流程协作。适用于中国律师事务所招聘律师助理、执业律师、合伙人等专业人才。",
+  "author": {
+    "name": "WrongLei",
+    "email": "wronglei@kangdalawyers.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wronglei/law-firm-recruitment"
+  },
+  "keywords": [
+    "law-firm",
+    "recruitment",
+    "legal-hiring",
+    "律师招聘",
+    "律所管理"
+  ],
+  "license": "MIT"
+}

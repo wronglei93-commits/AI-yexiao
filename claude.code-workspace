@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pretext"
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": []
+	}
+}
