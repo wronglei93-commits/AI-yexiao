@@ -3,6 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0071e3" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Prompt工作台" />
+  <meta name="description" content="把提示词从灵感变成工程 - 生成符合OpenAI最佳实践的Prompt" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect fill='%230071e3' width='192' height='192' rx='28'/%3E%3Ctext x='96' y='120' text-anchor='middle' fill='white' font-size='80' font-family='-apple-system'%3EP%3C/text%3E%3C/svg%3E" />
   <title>OpenAI Prompt 规范工作台｜Apple Style</title>
   <style>
     :root{
@@ -435,6 +442,13 @@
         document.getElementById('themeBtn').textContent = document.body.classList.contains('dark') ? '切换浅色' : '切换深色';
       });
     });
+
+    // PWA Service Worker 注册
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(reg => console.log('Service Worker 已注册:', reg))
+        .catch(err => console.log('Service Worker 注册失败:', err));
+    }
   </script>
 </body>
 </html>
